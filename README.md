@@ -1,7 +1,7 @@
 # Clean-Cache-Script 
 # ccache24.bat
 
-Script to clean Firefox, Chrome, all event logs and all junk files on a Windows system
+Script to clean Firefox, Chrome, Internet Explorer, and all event logs and all junk files on a Windows system
 
 The better is to launch this script in non-admin mode then in admin mode (mandatory for clearing windows event logs).
 
