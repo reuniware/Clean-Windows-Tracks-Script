@@ -35,7 +35,7 @@ sc stop SstpSvc
 sc stop StiSvc
 sc stop SysMain
 sc stop TapiSrv
-rem sc stop Themes
+sc stop Themes
 sc stop TrkWks
 sc stop UxSms
 sc stop WdiServiceHost
