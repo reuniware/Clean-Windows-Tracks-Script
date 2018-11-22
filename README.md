@@ -1,4 +1,5 @@
-# Clean-Cache-Script (ccache23.bat)
+# Clean-Cache-Script 
+# ccache23.bat
 
 Script to clean Firefox, Chrome and all junk files on a Windows system
 
@@ -9,4 +10,6 @@ The better is to launch this script in non-admin mode then in admin mode.
 
 Stop services to get more CPU available on Windows
 
+The better is to launch this script in non-admin mode then in admin mode.
 
+https://ntic974.blogspot.com
