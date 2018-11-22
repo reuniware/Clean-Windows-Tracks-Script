@@ -15,7 +15,8 @@ The better is to launch this script in non-admin mode then in admin mode.
 https://ntic974.blogspot.com
 
 # PC BOOST / GAME BOOSTER
-# (really boost your computer performances !)
+# Really boost your computer performances...
+# ...Like never before !
 # pcboost.bat
 
 It is a merge of stopservices.bat and stopservices2.bat.
