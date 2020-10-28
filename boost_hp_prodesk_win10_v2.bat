@@ -1,3 +1,4 @@
+rem services ending with "1fdd5b" might need to be changed according to services names on your system (type services.msc in command line to view them).
 net stop "wuauserv" /y
 net stop "TokenBroker" /y
 net stop "SstpSvc" /y
