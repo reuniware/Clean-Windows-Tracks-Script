@@ -101,6 +101,70 @@ set FlashCookies=C:\Users\%USERNAME%\AppData\Roaming\Macromedia\Flashp~1
 del /q /s /f "%FlashCookies%"
 rd /s /q "%FlashCookies%"
 
+@rem Media Player files
+erase "%LOCALAPPDATA%\Microsoft\Media Player\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\Microsoft\Media Player\*") do RD /S /Q "%%i"
+
+@rem Microsoft Office files
+erase "%LOCALAPPDATA%\Microsoft\OneDrive\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\Microsoft\OneDrive\*") do RD /S /Q "%%i"
+
+@rem Microsoft OneDrive files
+erase "%LOCALAPPDATA%\Microsoft\Office\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\Microsoft\Office\*") do RD /S /Q "%%i"
+
+@rem Microsoft Teams files 1
+erase "%LOCALAPPDATA%\Microsoft\Teams\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\Microsoft\Teams\*") do RD /S /Q "%%i"
+
+@rem Microsoft Teams files 2
+erase "%LOCALAPPDATA%\Microsoft\TeamsMeetingAddin\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\Microsoft\TeamsMeetingAddin\*") do RD /S /Q "%%i"
+
+@rem Microsoft Teams files 3
+erase "%LOCALAPPDATA%\Microsoft\TeamsPresenceAddin\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\Microsoft\TeamsPresenceAddin\*") do RD /S /Q "%%i"
+
+@rem Microsoft Terminal Server Client files
+erase "%LOCALAPPDATA%\Microsoft\Terminal Server Client\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\Microsoft\Terminal Server Client\*") do RD /S /Q "%%i"
+
+@rem Microsoft TokenBroker files
+erase "%LOCALAPPDATA%\Microsoft\TokenBroker\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\Microsoft\TokenBroker\*") do RD /S /Q "%%i"
+
+@rem Microsoft Vault files
+erase "%LOCALAPPDATA%\Microsoft\Vault\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\Microsoft\Vault\*") do RD /S /Q "%%i"
+
+@rem Microsoft Windows files in LOCAL APP DATA folder
+erase "%LOCALAPPDATA%\Microsoft\Windows\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\Microsoft\Windows\*") do RD /S /Q "%%i"
+
+@rem Microsoft Windows Live in LOCAL APP DATA folder
+erase "%LOCALAPPDATA%\Microsoft\Windows Live\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\Microsoft\Windows Live\*") do RD /S /Q "%%i"
+
+@rem Microsoft Windows Live in LOCAL APP DATA folder
+erase "%LOCALAPPDATA%\Microsoft\Windows Media\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\Microsoft\Windows Media\*") do RD /S /Q "%%i"
+
+@rem Microsoft Windows Apps in LOCAL APP DATA folder
+erase "%LOCALAPPDATA%\Microsoft\WindowsApps\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\Microsoft\WindowsApps\*") do RD /S /Q "%%i"
+
+@rem D3DSCACHE in LOCAL APP DATA folder
+erase "%LOCALAPPDATA%\D3DSCACHE\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\D3DSCACHE\*") do RD /S /Q "%%i"
+
+@rem Package Cache in LOCAL APP DATA folder
+erase "%LOCALAPPDATA%\Package Cache\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\Package Cache\*") do RD /S /Q "%%i"
+
+@rem Packages in LOCAL APP DATA folder
+erase "%LOCALAPPDATA%\Packages\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\Packages\*") do RD /S /Q "%%i"
+
 "C:\Program Files\CCleaner\CCleaner64.exe" /AUTO
 
 @echo off
