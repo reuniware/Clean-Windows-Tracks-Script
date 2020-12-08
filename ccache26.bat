@@ -36,14 +36,19 @@ for /D %%i in ("%SystemRoot%\TEMP\*") do RD /S /Q "%%i"
 erase "%SystemRoot%\Prefetch\*.*" /f /s /q
 for /D %%i in ("%SystemRoot%\Prefetch\*") do RD /S /Q "%%i"
 
-@rem Clear IE cache - (Deletes Temporary Internet Files Only)
+@rem Clear IE cache - (Deletes Temporary Internet Files Only) 
 RunDll32.exe InetCpl.cpl,ClearMyTracksByProcess 8
 erase "%LOCALAPPDATA%\Microsoft\Windows\Tempor~1\*.*" /f /s /q
+@rem Reset IE
 for /D %%i in ("%LOCALAPPDATA%\Microsoft\Windows\Tempor~1\*") do RD /S /Q "%%i"
+erase "%LOCALAPPDATA%\Microsoft\Internet Explorer\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\Microsoft\Internet Explorer\*") do RD /S /Q "%%i"
 
 @rem Reset Microsoft EDGE (and cleanup)
 erase "%LOCALAPPDATA%\Packages\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\*.*" /f /s /q
 for /D %%i in ("%LOCALAPPDATA%\Packages\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\*") do RD /S /Q "%%i"
+erase "%LOCALAPPDATA%\Microsoft\Edge\User Data\*.*" /f /s /q
+for /D %%i in ("%LOCALAPPDATA%\Microsoft\Edge\User Data\*") do RD /S /Q "%%i"
 
 @rem Clear Google Chrome cache
 erase "%LOCALAPPDATA%\Google\Chrome\User Data\*.*" /f /s /q
