@@ -1,3 +1,5 @@
+rem BE AWARE OF THE RISKS IMPLIED BY RUNNING THIS SCRIPT !!!!!!
+
 rem if not DEFINED IS_MINIMIZED set IS_MINIMIZED=1 && start "" /min "%~dpnx0" %* && exit
 
 
