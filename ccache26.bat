@@ -111,9 +111,9 @@ for /D %%i in ("%LOCALAPPDATA%\Microsoft\Media Player\*") do RD /S /Q "%%i"
 erase "%LOCALAPPDATA%\Microsoft\OneDrive\*.*" /f /s /q
 for /D %%i in ("%LOCALAPPDATA%\Microsoft\OneDrive\*") do RD /S /Q "%%i"
 
-@rem Microsoft OneDrive files
-erase "%LOCALAPPDATA%\Microsoft\Office\*.*" /f /s /q
-for /D %%i in ("%LOCALAPPDATA%\Microsoft\Office\*") do RD /S /Q "%%i"
+@rem Microsoft OneDrive files (removes Office 365 credentials...)
+@rem erase "%LOCALAPPDATA%\Microsoft\Office\*.*" /f /s /q
+@rem for /D %%i in ("%LOCALAPPDATA%\Microsoft\Office\*") do RD /S /Q "%%i"
 
 @rem Microsoft Teams files 1
 erase "%LOCALAPPDATA%\Microsoft\Teams\*.*" /f /s /q
