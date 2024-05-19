@@ -8,6 +8,11 @@ Some of these scripts allow you to clear Windows event logs, which can be percei
 Be careful if you use these scripts! You may be contacted by the security service of the company concerned!<br/>
 I decline all responsibility in case of malicious use.<br/>
 <br/><br/>
+Te skrypty są natychmiast wykrywane, gdy są używane na komputerach, których bezpieczeństwo jest zarządzane przez firmę.
+Niektóre z tych skryptów umożliwiają czyszczenie dzienników zdarzeń systemu Windows, co może być postrzegane jako działanie złośliwe.
+Uważaj, jeśli używasz tych skryptów! Możesz zostać skontaktowany przez służbę bezpieczeństwa danej firmy!
+Nie ponoszę żadnej odpowiedzialności w przypadku złośliwego użycia.
+<br/><br/>
 
 
 
