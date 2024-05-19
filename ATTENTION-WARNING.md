@@ -5,3 +5,15 @@ Certains de ces scripts permettent de nettoyer les journaux d'évènement Window
 Attention si vous utilisez ces scripts ! Vous risquez d'être contacté par le service sécurité de l'entreprise concernée !
 
 Je décline toute responsabilité en cas d'utilisation malveillante !
+
+
+
+
+These scripts are immediately detected when used on computers whose security is managed by a company.
+Some of these scripts allow you to clear Windows event logs, which can be perceived as a malicious action.
+Be careful if you use these scripts! You may be contacted by the security service of the company concerned!
+I decline all responsibility in case of malicious use.
+
+
+
+
