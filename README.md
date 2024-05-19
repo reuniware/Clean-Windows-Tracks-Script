@@ -1,4 +1,4 @@
-# Clean-Cache-Script 
+# Clean-Cache-Script (READ ATTENTION-WARNING.md)
 # ccache24.bat
 
 Script to clean Firefox, Chrome, Internet Explorer, and all event logs and all junk files on a Windows system
